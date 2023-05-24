@@ -34,6 +34,6 @@ print(30*"-")
 dicionario = {"Nome": "Gustavo", 
               "Idade": 20,
               "Sexo": 'm',
-              "Rico": False}
-print(f"{type(dicionario)}")
+              "Rico?": False}
+print(f"{dicionario['Nome']}")
 print(30*"-")
