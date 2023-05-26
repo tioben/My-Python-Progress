@@ -93,4 +93,54 @@ for x in lettersList: #outro metodo para somar listas
     somaList.append(x)
 print(somaList)
 
+somaList2 = []
+somaList2.extend(numberList) #outro metodo para somar listas
+print(somaList2)
+
+print("---tuplas---")
+tuple1 = ("apple",) #this is a tuple
+tuple2 = ("apple") #this is a str
+print(type(tuple1)); print(type(tuple2))
+
+thisTuple = tuple(("apple", "onion")) #create the tuple
+print(thisTuple)
+
+fruitsTuple = ('apple', 'banana', 'cherry')#soma the tuple
+numberTuple = (1,2,3,4)
+somaTuple = fruitsTuple + numberTuple
+print(fruitsTuple, " ",numberTuple); print(somaTuple)
+
+(red, yellow, pink) = fruitsTuple #descompactando tupla
+print(red); print(yellow); print(pink)
+
+print("---Set---")
+thisSet = {1,2,3,2} #não permite valores duplicados
+print(thisSet)
+print(type(thisSet))
+
+thisSet = {1,2,3,True,4,5} #1 == True
+print(thisSet)
+
+print(True in thisSet)
+
+thisSet.add("apple") #adicionando item
+print(thisSet)
+
+thisSet2 = {"blue", 12, False, 45.2}
+
+thisSet.update(thisSet2) #somando sets
+print(thisSet)
+
+thisSet = {"apple", "banana", "strawberries"} #apenas os que são iguais
+thisSet2 = {"apple", "rice", "tomato"}
+
+thisSet.intersection_update(thisSet2) 
+print(thisSet)
+
+thisSet = {"apple", "banana", "strawberries"} #tudo exceto o que são iguais
+thisSet2 = {"apple", "rice", "tomato"}
+
+thisSet.symmetric_difference_update(thisSet2)
+print(thisSet)
+
 
