@@ -143,4 +143,18 @@ thisSet2 = {"apple", "rice", "tomato"}
 thisSet.symmetric_difference_update(thisSet2)
 print(thisSet)
 
+print("---Dicionário---")
+thisDict = {"nome": "Gustavo",
+            "idade": 23,
+            "masculino": True}
+print(thisDict)
+print(thisDict.get("nome"))
+print(thisDict.get("Gustavo"))
+
+thisDict["nome"] = "David"
+print(thisDict)
+
+print(thisDict.values())
+print(thisDict.keys())
+print(thisDict.items())
 
