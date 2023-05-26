@@ -66,8 +66,31 @@ for x in fruits:
         listEmpty.append(x)
 
 print('-')
+
+print(listEmpty)#lista de frutas
+listEmpty.sort()#colocando em ordem alfabetica crescente
+print(listEmpty)
+listEmpty.sort(reverse=True)#colocando em ordem alfabetica decrescente
 print(listEmpty)
 
+listEmpty.reverse()
+print(listEmpty)
 
+print("***")
+listEmptyCopy = listEmpty.copy() #copiando uma lista metodo1
+print(listEmptyCopy)
+
+listEmptyCopy2 = list(listEmpty) #copiando uma lista metodo2
+print(listEmptyCopy2)
+
+numberList = [1,2,3,4,5]
+lettersList = ["a","b","c","d"]
+
+somaList = numberList + lettersList #um metodo para somar listas
+print(somaList)
+
+for x in lettersList: #outro metodo para somar listas
+    somaList.append(x)
+print(somaList)
 
 
