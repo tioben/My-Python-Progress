@@ -48,3 +48,8 @@ for x in range(10):
 
 print("")
 
+for x in range(10,19): #range 10 for 18
+    print(x)
+
+print("")
+
