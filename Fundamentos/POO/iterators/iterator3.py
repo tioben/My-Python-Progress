@@ -33,13 +33,6 @@ class myNumbers ():
 myClass = myNumbers()
 myClassIter = iter(myClass)
 
-print(next(myClassIter))
-print(next(myClassIter))
-print(next(myClassIter))
-print(next(myClassIter))
-print(next(myClassIter))
-print(next(myClassIter))
-print(next(myClassIter))
-print(next(myClassIter))
-print(next(myClassIter))
-print(next(myClassIter))
+for x in myClassIter:
+    print(x)
+
