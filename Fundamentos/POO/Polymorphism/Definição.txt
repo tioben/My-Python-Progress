@@ -1,0 +1,9 @@
+
+ Polimorfismo é um conceito em programação orientada a objetos que permite que objetos de diferentes classes sejam tratados de forma semelhante, 
+mesmo que tenham comportamentos diferentes. Em Python, o polimorfismo é alcançado através do uso de métodos com o mesmo nome em diferentes classes.
+Por exemplo, imagine que você tenha duas classes: "Cachorro" e "Gato". Ambas as classes têm um método chamado "fazer_som", mas cada uma delas implementa 
+esse método de maneira diferente. No entanto, você pode tratar tanto um objeto da classe "Cachorro" quanto um objeto da classe "Gato" da mesma maneira, 
+chamando o método "fazer_som" em ambos os casos.
+
+Dessa forma, o polimorfismo permite que você escreva um código genérico que possa ser aplicado a diferentes objetos, independentemente de sua classe específica. 
+Isso torna o código mais flexível e reutilizável, pois você pode trabalhar com diferentes tipos de objetos usando as mesmas operações básicas.

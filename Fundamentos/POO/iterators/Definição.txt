@@ -1,0 +1,12 @@
+ Iterators (iteradores) são objetos em Python que permitem percorrer sequencialmente elementos em uma coleção de dados, como listas, strings, dicionários, entre outros. 
+Eles fornecem um meio de acessar os elementos de uma coleção de forma sequencial, um por vez, sem a necessidade de conhecer os detalhes internos da implementação da coleção.
+
+ Os iteradores implementam dois métodos principais: o método __iter__() e o método __next__(). O método __iter__() retorna o próprio objeto iterador e é chamado no início do loop. 
+ O método __next__() retorna o próximo elemento da sequência e é chamado a cada iteração do loop.
+
+ Quando um loop é iniciado, o objeto iterador é criado e o método __iter__() é chamado para obter o iterador. Em cada iteração subsequente do loop, o método __next__() é chamado 
+ para obter o próximo elemento da sequência até que todos os elementos tenham sido percorridos. Se não houver mais elementos, o método __next__() pode lançar uma exceção 
+ StopIteration para indicar o fim do iterador.
+
+ Os iteradores são amplamente utilizados em construções como loops for-in, que percorrem automaticamente todos os elementos de uma sequência. 
+ Eles também podem ser usados para criar objetos personalizados que sejam iteráveis e permitam a iteração personalizada sobre os elementos de uma coleção de dados.

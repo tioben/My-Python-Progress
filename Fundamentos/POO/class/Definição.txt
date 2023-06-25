@@ -1,0 +1,18 @@
+
+ Em programação orientada a objetos, uma classe é uma estrutura que define um tipo de objeto. Ela serve como um modelo ou blueprint para criar objetos específicos, 
+ fornecendo a estrutura e o comportamento que esses objetos devem ter.
+
+ Uma classe é composta por atributos e métodos. Os atributos são variáveis que armazenam dados relacionados à classe, enquanto os métodos são funções que definem o 
+ comportamento da classe e operações que podem ser realizadas nela.
+
+ Quando um objeto é criado a partir de uma classe, ele é chamado de instância da classe. Cada instância tem seu próprio conjunto de valores de atributos, independentes 
+ das outras instâncias. No entanto, todas as instâncias compartilham os mesmos métodos definidos na classe.
+
+ As classes são usadas para organizar e estruturar o código em programação orientada a objetos. Elas permitem criar objetos com características e comportamentos específicos, 
+ encapsulando dados e funcionalidades relacionadas em uma unidade coesa.
+
+ Além disso, as classes também podem estabelecer relações entre si, como herança (quando uma classe herda características de outra classe) e associação 
+ (quando uma classe usa ou referencia objetos de outra classe).
+
+ Em resumo, uma classe é uma estrutura que define um tipo de objeto, fornecendo atributos e métodos que definem seu comportamento e características. 
+ As instâncias da classe são os objetos específicos criados a partir dessa definição.

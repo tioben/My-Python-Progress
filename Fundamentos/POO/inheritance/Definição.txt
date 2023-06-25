@@ -1,0 +1,15 @@
+
+ Inheritance (herança) é um conceito fundamental da programação orientada a objetos que permite que uma classe herde características e comportamentos de outra classe. 
+ A classe que herda é chamada de classe derivada ou subclasse, e a classe da qual ela herda é chamada de classe base ou superclasse.
+
+ A herança permite a reutilização de código, pois a classe derivada pode herdar os atributos e métodos da classe base, evitando a necessidade de escrever o mesmo código 
+ repetidamente. Isso promove a modularidade e a organização do código, além de permitir a criação de hierarquias de classes.
+
+ A classe derivada pode adicionar novos atributos e métodos ou modificar os existentes da classe base. Ela também pode especializar o comportamento herdado ou fornecer 
+ implementações mais específicas.
+
+ Ao herdar de uma classe base, a classe derivada pode acessar os membros herdados usando a palavra-chave super(). Isso permite chamar os métodos da classe base, 
+ mesmo que tenham sido sobrescritos na classe derivada.
+
+ A herança é um mecanismo poderoso na programação orientada a objetos, pois permite criar uma hierarquia de classes, compartilhar comportamentos e estabelecer relações 
+ entre classes relacionadas. Ela promove a reutilização de código, a modularidade e a flexibilidade na construção de sistemas complexos.
