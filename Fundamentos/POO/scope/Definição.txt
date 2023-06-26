@@ -1,0 +1,13 @@
+Em Python, "scope" se refere ao alcance ou à visibilidade de uma variável, isto é, onde a variável é acessível dentro de um programa. 
+O scope determina em quais partes do código uma variável pode ser referenciada e modificada.
+
+Existem três níveis de escopo em Python:
+
+    1. Escopo global: Variáveis declaradas fora de qualquer função ou classe têm escopo global. Elas podem ser acessadas de qualquer parte do programa, 
+    incluindo dentro de funções e classes.
+
+    2. Escopo de função: Variáveis declaradas dentro de uma função têm escopo de função. Elas só podem ser acessadas dentro da função em que foram declaradas. 
+    Essas variáveis são destruídas quando a função termina sua execução.
+
+    3. Escopo local: Variáveis declaradas dentro de blocos de código, como loops ou estruturas condicionais, têm escopo local. 
+    Elas só podem ser acessadas dentro do bloco em que foram declaradas. Quando o bloco é concluído, essas variáveis são destruídas.

@@ -1,24 +1,19 @@
-class car:
-    def __init__(self, marca, modelo):
-        self.brand = marca
-        self.model = modelo
-
-    def move (self):
-        print("Drive!")
-
-class boat:
+class vehicle:
     def __init__(self, marca, modelo):
         self.brand = marca
         self.model = modelo
     
+    def move (self):
+        print("Move!")
+    
+class car(vehicle):
+    pass
+
+class boat(vehicle):
     def move (self):
         print("Sail!")
 
-class plane:
-    def __init__(self, marca, modelo):
-        self.brand = marca
-        self.model = modelo
-    
+class plane(vehicle):
     def move (self):
         print("Fly!")
 
