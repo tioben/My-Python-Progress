@@ -1,0 +1,11 @@
+O que é Matplotlib?
+    Matplotlib é uma biblioteca de plotagem de gráficos de baixo nível em python que serve como um utilitário de visualização.
+
+    Matplotlib foi criado por John D. Hunter.
+
+    O Matplotlib é de código aberto e podemos usá-lo livremente.
+
+    Matplotlib é escrito principalmente em python, alguns segmentos são escritos em C, Objective-C e Javascript para compatibilidade de plataforma.
+
+Onde está a base de código Matplotlib?
+    O código-fonte do Matplotlib está localizado neste repositório github https://github.com/matplotlib/matplotlib
